@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="注册">
+        <classes>
+            <class name="com.learn.testCase.RegisterTest"></class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="登录">
+        <classes>
+            <class name="com.learn.testCase.DataproviderTest"></class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="充值">
+        <classes>
+            <class name="com.learn.testCase.RechargeTest"></class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="新增项目">
+        <classes>
+            <class name="com.learn.testCase.AddLoanTest"></class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="投资">
+        <classes>
+            <class name="com.learn.testCase.InvestLoadTest"></class>
+        </classes>
+    </test>
+</suite>
